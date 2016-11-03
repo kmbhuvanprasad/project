@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20161103093007) do
     t.string   "age"
     t.string   "role"
     t.string   "gender"
+    t.integer  "movie_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

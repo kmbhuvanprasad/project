@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :age
       t.string :role
       t.string :gender
-
+      t.integer :movie_id
       t.timestamps null: false
     end
   end
