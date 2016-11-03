@@ -36,7 +36,7 @@ module Api
 
 			private
 			 def movie_params
-			 	params.require(:movie).permit(:title,:year,:rating,:actors,:director,:producer)
+			 	params.require(:movie).permit(:title,:year,:rating,:actors,:director,:producer,:language)
 			 end
 
 		end
